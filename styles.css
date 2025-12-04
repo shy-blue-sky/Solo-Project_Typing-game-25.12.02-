@@ -1,0 +1,58 @@
+/* Applies to ENTIRE page! Meaninig ALL elements within it will have 50px spacing everywhere */
+/* *{
+    padding: 50px;
+    margin: 50px;
+} */
+/* Applies to the <body> tag element in the page! */
+/* body {
+    padding: 0;
+    margin: 0;
+} */
+#gameBox {
+  width: 500px;
+  height: 500px;
+  border: 0.5px solid black;
+  position: relative;
+}
+#raindrop {
+  width: 75px;
+  height: 20px;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* animation: raindrop ls infinite; */
+}
+#words {
+    margin: 0;
+    padding: 0;
+    color:rgb(255, 78, 43);
+}
+/* Removing margin for ALL <p> elements. A <p> element has default value of 16px each for margin-top and margin-bottom  */
+p {
+    margin: 0;
+  }
+/* #raindrop {
+    width: 75px;
+    height: 20px;
+    color:rgb(218, 38, 38);
+    background-color: blue;
+    position: relative;
+    top: 0px;
+    animation: raindrop ls infinite;
+  } */
+input {
+  width: 500px;
+  height: 50px;
+  margin-top: 20px;
+  background-color:azure;
+  border: 0.5px solid blue;
+}
+/* @keyframes raindrop {
+  0% {
+    left: 480px;
+  }
+  100% {
+    left: -40px;
+  }
+} */
