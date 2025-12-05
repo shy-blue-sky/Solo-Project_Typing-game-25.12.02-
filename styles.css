@@ -8,7 +8,19 @@
     padding: 0;
     margin: 0;
 } */
+body{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 #gameBox {
+  /* background-color: ; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: 500px;
   height: 500px;
   border: 0.5px solid black;
@@ -21,13 +33,27 @@
   position: absolute;
   top: 0;
   left: 0;
-  /* animation: raindrop ls infinite; */
 }
 #words {
     margin: 0;
     padding: 0;
     color:rgb(255, 78, 43);
 }
+/* BELOW IS FOR FULL GAME!!!
+.raindrop {
+  width: 75px;
+  height: 20px;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.words {
+    margin: 0;
+    padding: 0;
+    color:rgb(255, 78, 43);
+} */
+
 /* Removing margin for ALL <p> elements. A <p> element has default value of 16px each for margin-top and margin-bottom  */
 p {
     margin: 0;
